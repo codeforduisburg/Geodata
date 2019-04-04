@@ -1,0 +1,23 @@
+{
+  "name": "geodata",
+  "version": "1.0.0",
+  "description": "Geodaten von Duisburg",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/getGeoData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeforduisburg/Geodata.git"
+  },
+  "author": "Code for Duisburg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeforduisburg/Geodata/issues"
+  },
+  "homepage": "https://github.com/codeforduisburg/Geodata#readme",
+  "devDependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "dependencies": {}
+}
