@@ -66,7 +66,7 @@ fetch(endpoint('MapIt', 979191))
             if(fs.existsSync(`./${path}`)) types.push(`[${type}](${path})`) ;
         }
         if(types.length){
-            fs.appendFileSync('README.md', `* ${bezirk} (${types.join(', ')})  \n`)
+            fs.appendFileSync('README.md', `${stadtbezirke[bezirk] % 100 == 0 ? `\n**${bezirk}**` : `* ${bezirk}`} (${types.join(', ')})  \n`)
         }else{
             fs.appendFileSync('README.md', `* *${bezirk}*  \n`)
         }
