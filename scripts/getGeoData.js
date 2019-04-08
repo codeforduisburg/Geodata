@@ -71,4 +71,5 @@ fetch(endpoint('MapIt', 979191))
             fs.appendFileSync('README.md', `* *${bezirk}*  \n`)
         }
     }))
+    .then(() => fs.appendFileSync('README.md', `  \n  \n© OpenStreetMap contributors  \nLicense: https://www.openstreetmap.org/copyright`))
     .then(() => console.log('Done!'));

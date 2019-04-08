@@ -64,3 +64,7 @@
 * Hüttenheim ([json](json/708_huettenheim.json), [wkt](wkt/708_huettenheim.wkt), [poly](poly/708_huettenheim.poly))  
 * Ungelsheim ([json](json/709_ungelsheim.json), [wkt](wkt/709_ungelsheim.wkt), [poly](poly/709_ungelsheim.poly))  
 * Mündelheim ([json](json/710_muendelheim.json), [wkt](wkt/710_muendelheim.wkt), [poly](poly/710_muendelheim.poly))  
+  
+  
+© OpenStreetMap contributors  
+License: https://www.openstreetmap.org/copyright
